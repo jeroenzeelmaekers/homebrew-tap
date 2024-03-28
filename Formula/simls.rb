@@ -25,3 +25,4 @@ class Simls < Formula
       bin.install_symlink "#{libexec}/simls.exe" => "simls"
     end
   end
+end
