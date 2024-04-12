@@ -1,6 +1,6 @@
 class Simls < Formula
   version "v0.0.2"
-  homepage "https://github.com/benja/cloup"
+  homepage "https://github.com/jeroenzeelmaekers/simls"
   desc "Simls is a cli tool that allows for managing of android emulators & iOS simulators."
   
   if OS.mac?
