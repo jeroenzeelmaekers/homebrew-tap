@@ -26,3 +26,4 @@ class Simls < Formula
     end
   end
 end
+
