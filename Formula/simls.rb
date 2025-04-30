@@ -5,16 +5,16 @@ class Simls < Formula
 
   if OS.mac? && Hardware::CPU.intel?
     url "https://github.com/jeroenzeelmaekers/simls/releases/download/#{version}/simls-x86_64-apple-darwin.tar.gz"
-    sha256 "d16ca0eb9cfb630e6dba0b0e1b261b0f208a6598f7247b7a24e71ff2671bb8a0"
+    sha256 "fbadd8e768e76ffab7fbc394e2d46aa3e8bd5d5232f48f36cebc153d02109bda"
   elsif OS.mac? && Hardware::CPU.arm?
     url "https://github.com/jeroenzeelmaekers/simls/releases/download/#{version}/simls-aarch64-apple-darwin.tar.gz"
-    sha256 "3eee73878a8d061851b292593d0454905b1937c70e719915c64a595737a7072f"
+    sha256 "b3da8669318b9fc03fe064642639bad3a25b2f665493d33fe46e809445c4efbc"
   elsif OS.linux? && Hardware::CPU.intel?
     url "https://github.com/jeroenzeelmaekers/simls/releases/download/#{version}/simls-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "03d4f124de30515d9b64a2cd62adc2bd8bfc6d08e500028da93e7ad3c4de1e1b"
+    sha256 "0d8545fb4104b7762560cb739dc81155a579b64972410260db7fdad4ee64d0ef"
   elsif OS.windows? && Hardware::CPU.intel?
     url "https://github.com/jeroenzeelmaekers/simls/releases/download/#{version}/simls-x86_64-pc-windows-msvc.zip"
-    sha256 "93194d8bf6fb746648eb3da37590ca8d6314de3687b445c109c3e046a9c2b56c"
+    sha256 "48918cd6c42791d42254173a4daf0fb1f89336580dac4e96e3851c008b364ace"
   end
   
   def install
